@@ -1,4 +1,181 @@
-﻿<!DOCTYPE html>
+body {
+	font-family: "Kaushan Script", cursive;
+	font-size: 10px;
+	font-style:normal;
+	color: #222;
+	padding: 0px;
+	margin: 0px;
+}
+*,
+*: before,
+*: after {
+	box-sizing: border-box;
+}
+/* тексты */
+h2,h3,h4,h5,h6{
+margin: 0;
+}
+
+h1 {
+	font-size:40px;
+}
+
+/* контейнер */
+.container {
+	width: 100%;
+	height: 1000px;
+	padding-left: 10px;
+}
+
+
+/* приветствие */
+.intro {
+	width:100%;
+	height: 1000px;
+	background:url('../first_site/images/Фон2.png');
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* навигация */
+.nav_link{
+    font-size: 20px;
+	display: inline-block;
+	vertical-align:top;
+	padding:0 10px;
+	color:black;
+	margin-top:-20px;
+	margin-left:-10px;
+	transition:color .4s linear;
+
+}
+.nav_link:hover{
+	color:#FFE4B5;
+}
+
+.h1 {
+	width:475px;
+    font-family: "Kaushan Script", cursive;
+    font-size: 50px;
+	color:black;
+	margin-left:500px;
+	position:center;
+}
+
+.navigation {
+	display:inline-block;
+
+	margin-left:450px;
+
+}
+
+.first_page_links {
+    font-family: "Kaushan Script", cursive;
+    font-size: 35px;
+	position:center;
+	margin: 0 10px;
+	color:black;
+	text-decoration:none
+}
+
+/*body*/
+
+.galary {
+	display:flex;
+	left:calc(50% - 330px);
+}
+
+.midle_cont {
+	position:relative;
+	width: 150px;
+	height: 250px;
+	padding:8px;
+	border-radius:10px;
+	box-shadow:20px 5px 40px black;
+	transition:1s easy-in-out;
+	background-color:#FFE4B5;
+	margin-top:300px;
+	margin-left:40px;
+}
+
+.midle_cont:hover {
+	transform:translateY(-16px);
+	font-weight:bold;
+	cursor:pointer;
+}
+.midle_cont:hover ~ .midle_cont {
+	left:55px
+}
+
+.midle_cont:nth-child(2){
+    margin-left:-50px;
+	background-color:#87CEEB;
+}
+
+.midle_cont:nth-child(3){
+    margin-left:-50px;
+	background-color:#DDA0DD;
+}
+
+
+.midle_h2 {
+	margin-left:10px;
+	font-family: "Kaushan Script", cursive;
+	font-size: 25px;
+	color:black;
+
+}
+
+.table{
+	font-family: "Kaushan Script", cursive;
+	font-size: 15px;
+	color:black;
+}
+.blog_cont {
+	position:relative;
+	width: 150px;
+	height: 150px;
+	padding:8px;
+	border-radius:10px;
+	box-shadow:20px 5px 40px black;
+	background-color:#FFE4B5;
+	margin-left:1150px;
+}
+.blog_cont:hover {
+	transform:translateY(-16px);
+	font-weight:bold;
+	cursor:pointer;
+}
+.blog_cont:hover ~ .blog_cont {
+	left:55px
+}
+
+.blog_cont:nth-child(2){
+    margin-left:-50px;
+	background-color:#87CEEB;
+}
+
+
+.blog_h2{
+    font-family: "Kaushan Script", cursive;
+    font-size: 25px;
+	color:black;
+}
+.blog_table {
+    font-family: "Kaushan Script", cursive;
+	font-size: 15px;
+	color:black;
+}
+
+.blog_links {
+	color:black;
+	font-family: "Kaushan Script", cursive;
+    font-size: 15px;
+}
+
+
+ <!DOCTYPE html>
 
 <html lang="en">
 <head>
